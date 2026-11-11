@@ -138,7 +138,7 @@ function renderCuenta(){
 async function sha256(t){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(t));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("")}
 function renderAdminLogin(pane){
   pane.innerHTML=`<form class="panel" id="admForm" novalidate><h3>Ingreso de administración</h3><p class="small muted">Solo para el equipo de Stay Lux &amp; Pets Hotel.</p>
-    <div class="field"><label for="aMail">Email de administración</label><input id="aMail" type="email" autocomplete="username" placeholder="stayluxpetshotel@gmail.com"></div>
+    <div class="field"><label for="aMail">Email de administración</label><input id="aMail" type="email" autocomplete="username" placeholder="TuGmaill@gmail.com"></div>
     <div class="field"><label for="aPass">Contraseña</label><input id="aPass" type="password" autocomplete="current-password"></div>
     <div class="err" id="aErr" hidden></div><div class="actions"><button class="btn btn-gold" type="submit" id="aBtn">Ingresar</button></div></form>`;
   $("admForm").onsubmit=async e=>{e.preventDefault();const er=$("aErr"),btn=$("aBtn"),m=$("aMail").value.trim().toLowerCase(),pw=$("aPass").value;er.hidden=true;
