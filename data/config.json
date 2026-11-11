@@ -1,0 +1,28 @@
+{
+  "tarifas": {
+    "rooms": {
+      "boutique": {
+        "high": 220,
+        "low": 150
+      },
+      "premium": {
+        "high": 280,
+        "low": 190
+      },
+      "luxury": {
+        "high": 380,
+        "low": 260
+      },
+      "suite": {
+        "high": 520,
+        "low": 360
+      },
+      "penthouse": {
+        "high": 950,
+        "low": 650
+      }
+    },
+    "pet2": 25,
+    "actualizado": "2026-11-10T00:00:00.000Z"
+  }
+}

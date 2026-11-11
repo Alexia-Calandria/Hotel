@@ -1,0 +1,44 @@
+{
+  "escapada-bienestar": {
+    "items": [
+      "2 noches en habitación Premium",
+      "Masaje de 50 min por persona y circuito de spa",
+      "1 sesión de spa pet",
+      "Cena de autor con menú pet"
+    ],
+    "nota": "por estadía, 2 personas + 1 mascota",
+    "orden": 1,
+    "precio": 520,
+    "puntos": 52000,
+    "temporada": "Abril a noviembre",
+    "titulo": "Escapada de bienestar"
+  },
+  "finde-pet": {
+    "items": [
+      "Taller de adiestramiento y socialización",
+      "Charla con veterinario o etólogo",
+      "Circuito de agility guiado",
+      "Jornada de adopción responsable"
+    ],
+    "nota": "por mascota, sobre la tarifa de habitación",
+    "orden": 3,
+    "precio": 75,
+    "puntos": 7500,
+    "temporada": "Fines de semana temáticos",
+    "titulo": "Fin de semana pet"
+  },
+  "workation": {
+    "items": [
+      "Habitación Boutique o Luxury con 15% de descuento",
+      "Puesto fijo en coworking y 4 h de sala privada por semana",
+      "Guardería diurna 3 días por semana",
+      "Lavandería semanal"
+    ],
+    "nota": "7 noches Boutique en temporada baja",
+    "orden": 2,
+    "precio": 890,
+    "puntos": 89000,
+    "temporada": "Todo el año, mín. 7 noches",
+    "titulo": "Workation pet-friendly"
+  }
+}
