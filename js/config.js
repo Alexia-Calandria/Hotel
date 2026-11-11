@@ -4,7 +4,7 @@
    ===================================================================== */
 window.SLP_CONFIG = {
   /* Dirección pública del sitio (GitHub Pages). Se usa para la imagen del sello en los emails. */
-  sitioUrl: "https://TU-USUARIO.github.io/staylux-pets-hotel",
+  sitioUrl: "https://alexia-calandria.github.io/Hotel/",
 
   /* Cuenta que envía los emails al huésped */
   remitente: "stayluxpetshotelreservas@gmail.com",
